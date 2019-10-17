@@ -10389,9 +10389,7 @@ More information and support community is available at http://www.element14.com/
 <attribute name="NAME" x="72.644" y="33.401" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="72.644" y="28.321" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="71.12" y="40.64" smashed="yes">
-<attribute name="VALUE" x="71.12" y="43.434" size="1.778" layer="96" align="bottom-center"/>
-</instance>
+<instance part="SUPPLY2" gate="G$1" x="71.12" y="40.64" smashed="yes"/>
 <instance part="U$11" gate="G$1" x="50.8" y="132.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="52.705" y="127" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="52.705" y="138.7475" size="1.778" layer="96" rot="R180"/>
