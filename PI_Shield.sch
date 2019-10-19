@@ -9506,6 +9506,7 @@ More information and support community is available at http://www.element14.com/
 <pinref part="U$1" gate="G$1" pin="OSC1"/>
 <wire x1="30.48" y1="127" x2="17.78" y2="127" width="0.1524" layer="91"/>
 <label x="17.78" y="127" size="1.778" layer="95"/>
+<label x="71.12" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OSC2" class="0">
@@ -9513,6 +9514,7 @@ More information and support community is available at http://www.element14.com/
 <pinref part="U$1" gate="G$1" pin="OSC2"/>
 <wire x1="30.48" y1="129.54" x2="17.78" y2="129.54" width="0.1524" layer="91"/>
 <label x="17.78" y="129.54" size="1.778" layer="95"/>
+<label x="71.12" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TXCAN" class="0">
