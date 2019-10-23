@@ -9278,6 +9278,42 @@ More information and support community is available at http://www.element14.com/
 <part name="R17" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="150"/>
 <part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="R16" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
+<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9396,6 +9432,30 @@ More information and support community is available at http://www.element14.com/
 <attribute name="NAME" x="114.3" y="82.804" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="114.3" y="79.756" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
+<instance part="GND4" gate="1" x="88.9" y="137.16" smashed="yes">
+<attribute name="VALUE" x="86.36" y="134.62" size="1.778" layer="96"/>
+</instance>
+<instance part="GND5" gate="1" x="111.76" y="137.16" smashed="yes">
+<attribute name="VALUE" x="109.22" y="134.62" size="1.778" layer="96"/>
+</instance>
+<instance part="GND6" gate="1" x="96.52" y="63.5" smashed="yes">
+<attribute name="VALUE" x="93.98" y="60.96" size="1.778" layer="96"/>
+</instance>
+<instance part="GND7" gate="1" x="172.72" y="40.64" smashed="yes">
+<attribute name="VALUE" x="170.18" y="38.1" size="1.778" layer="96"/>
+</instance>
+<instance part="GND8" gate="1" x="203.2" y="116.84" smashed="yes">
+<attribute name="VALUE" x="200.66" y="114.3" size="1.778" layer="96"/>
+</instance>
+<instance part="GND9" gate="1" x="121.92" y="121.92" smashed="yes">
+<attribute name="VALUE" x="119.38" y="119.38" size="1.778" layer="96"/>
+</instance>
+<instance part="GND10" gate="1" x="27.94" y="119.38" smashed="yes">
+<attribute name="VALUE" x="25.4" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="GND11" gate="1" x="236.22" y="43.18" smashed="yes" rot="R90">
+<attribute name="VALUE" x="238.76" y="40.64" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9449,44 +9509,44 @@ More information and support community is available at http://www.element14.com/
 <wire x1="27.94" y1="121.92" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="VSS"/>
 <wire x1="27.94" y1="124.46" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
-<label x="25.4" y="119.38" size="1.778" layer="95"/>
+<pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="144.78" x2="88.9" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="144.78" x2="88.9" y2="139.7" width="0.1524" layer="91"/>
-<label x="86.36" y="137.16" size="1.778" layer="95"/>
+<pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="144.78" x2="111.76" y2="139.7" width="0.1524" layer="91"/>
-<label x="109.22" y="137.16" size="1.778" layer="95"/>
+<pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="129.54" y1="129.54" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="129.54" x2="121.92" y2="124.46" width="0.1524" layer="91"/>
-<label x="119.38" y="121.92" size="1.778" layer="95"/>
+<pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="121.92" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
-<label x="200.66" y="116.84" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$14" gate="G$1" pin="4"/>
-<wire x1="226.06" y1="43.18" x2="233.68" y2="43.18" width="0.1524" layer="91"/>
-<label x="231.14" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="172.72" y1="48.26" x2="172.72" y2="43.18" width="0.1524" layer="91"/>
-<label x="170.18" y="40.64" size="1.778" layer="95"/>
-<pinref part="Q4" gate="NMOS" pin="S"/>
+<pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="71.12" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<label x="93.98" y="63.5" size="1.778" layer="95"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="4"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="226.06" y1="43.18" x2="233.68" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="Q4" gate="NMOS" pin="S"/>
+<wire x1="172.72" y1="43.18" x2="172.72" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -9780,11 +9840,11 @@ More information and support community is available at http://www.element14.com/
 <text x="152.4" y="167.64" size="1.778" layer="91">UART Communication Header Pins</text>
 <text x="182.88" y="71.12" size="1.778" layer="91">Servo Connector</text>
 <text x="180.34" y="109.22" size="1.778" layer="91">Is this needed?</text>
-<text x="236.22" y="60.96" size="1.778" layer="91">Is this needed?</text>
 <text x="5.08" y="40.64" size="1.778" layer="91">Data Logger Pin</text>
 <text x="5.08" y="35.56" size="1.778" layer="91">Data Logger Pin</text>
 <text x="43.18" y="33.02" size="1.778" layer="91">Data Logger Pin</text>
 <text x="71.12" y="63.5" size="1.778" layer="91" rot="R90">We will be using Pi 4, not Pi 2</text>
+<text x="134.62" y="27.94" size="1.778" layer="91">Sensors need to be assigned, chnage names later</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
@@ -9873,6 +9933,60 @@ More information and support community is available at http://www.element14.com/
 <attribute name="NAME" x="160.02" y="163.068" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="PCB1" gate="G$1" x="116.84" y="7.62" smashed="yes" rot="R90"/>
+<instance part="GND12" gate="1" x="5.08" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="2.54" y="91.44" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND13" gate="1" x="58.42" y="78.74" smashed="yes" rot="R90">
+<attribute name="VALUE" x="60.96" y="76.2" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND14" gate="1" x="5.08" y="48.26" smashed="yes" rot="R270">
+<attribute name="VALUE" x="2.54" y="50.8" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND15" gate="1" x="5.08" y="27.94" smashed="yes" rot="R270">
+<attribute name="VALUE" x="2.54" y="30.48" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND16" gate="1" x="58.42" y="38.1" smashed="yes" rot="R90">
+<attribute name="VALUE" x="60.96" y="35.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND17" gate="1" x="58.42" y="114.3" smashed="yes" rot="R90">
+<attribute name="VALUE" x="60.96" y="111.76" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND18" gate="1" x="5.08" y="99.06" smashed="yes" rot="R270">
+<attribute name="VALUE" x="2.54" y="101.6" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND19" gate="1" x="5.08" y="63.5" smashed="yes" rot="R270">
+<attribute name="VALUE" x="2.54" y="66.04" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND20" gate="1" x="132.08" y="45.72" smashed="yes" rot="R270">
+<attribute name="VALUE" x="129.54" y="48.26" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND21" gate="1" x="132.08" y="71.12" smashed="yes" rot="R270">
+<attribute name="VALUE" x="129.54" y="73.66" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND22" gate="1" x="132.08" y="96.52" smashed="yes" rot="R270">
+<attribute name="VALUE" x="129.54" y="99.06" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND24" gate="1" x="226.06" y="33.02" smashed="yes" rot="R90">
+<attribute name="VALUE" x="228.6" y="30.48" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND25" gate="1" x="241.3" y="50.8" smashed="yes" rot="R90">
+<attribute name="VALUE" x="243.84" y="48.26" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND26" gate="1" x="241.3" y="71.12" smashed="yes" rot="R90">
+<attribute name="VALUE" x="243.84" y="68.58" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND27" gate="1" x="220.98" y="116.84" smashed="yes">
+<attribute name="VALUE" x="218.44" y="114.3" size="1.778" layer="96"/>
+</instance>
+<instance part="GND28" gate="1" x="137.16" y="124.46" smashed="yes" rot="R270">
+<attribute name="VALUE" x="134.62" y="127" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND29" gate="1" x="182.88" y="154.94" smashed="yes" rot="R90">
+<attribute name="VALUE" x="185.42" y="152.4" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND23" gate="1" x="182.88" y="55.88" smashed="yes">
+<attribute name="VALUE" x="180.34" y="53.34" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9881,7 +9995,7 @@ More information and support community is available at http://www.element14.com/
 <segment>
 <pinref part="U$3" gate="G$1" pin="GND"/>
 <wire x1="220.98" y1="124.46" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
-<label x="220.98" y="119.38" size="1.778" layer="95"/>
+<pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="233.68" y1="157.48" x2="238.76" y2="157.48" width="0.1524" layer="91"/>
@@ -9891,28 +10005,30 @@ More information and support community is available at http://www.element14.com/
 </segment>
 <segment>
 <wire x1="223.52" y1="50.8" x2="238.76" y2="50.8" width="0.1524" layer="91"/>
-<label x="233.68" y="50.8" size="1.778" layer="95"/>
 <pinref part="J3" gate="J$1" pin="1"/>
+<pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="33.02" x2="223.52" y2="33.02" width="0.1524" layer="91"/>
-<label x="215.9" y="33.02" size="1.778" layer="95"/>
+<pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="4"/>
 <wire x1="147.32" y1="96.52" x2="134.62" y2="96.52" width="0.1524" layer="91"/>
-<label x="134.62" y="96.52" size="1.778" layer="95"/>
+<pinref part="GND22" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="4"/>
 <wire x1="147.32" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
 <label x="134.62" y="71.12" size="1.778" layer="95"/>
+<pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="4"/>
 <wire x1="147.32" y1="45.72" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
 <label x="134.62" y="45.72" size="1.778" layer="95"/>
+<pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="H3" gate="G$1" pin="MOUNT"/>
@@ -9932,64 +10048,66 @@ More information and support community is available at http://www.element14.com/
 <junction x="195.58" y="88.9"/>
 </segment>
 <segment>
-<pinref part="U$9" gate="G$1" pin="3"/>
-<wire x1="152.4" y1="124.46" x2="139.7" y2="124.46" width="0.1524" layer="91"/>
-<label x="139.7" y="124.46" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="3"/>
-<wire x1="187.96" y1="60.96" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
-<label x="175.26" y="60.96" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="71.12" x2="238.76" y2="71.12" width="0.1524" layer="91"/>
 <label x="233.68" y="71.12" size="1.778" layer="95"/>
+<pinref part="GND26" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J8" gate="J$1" pin="1"/>
 <wire x1="170.18" y1="154.94" x2="180.34" y2="154.94" width="0.1524" layer="91"/>
-<label x="175.26" y="154.94" size="1.778" layer="95"/>
+<pinref part="GND29" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="GND@6"/>
 <wire x1="17.78" y1="27.94" x2="7.62" y2="27.94" width="0.1524" layer="91"/>
-<label x="7.62" y="27.94" size="1.778" layer="95"/>
+<pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="GND@14"/>
 <wire x1="17.78" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
-<label x="7.62" y="48.26" size="1.778" layer="95"/>
+<pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="GND@20"/>
 <wire x1="17.78" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
-<label x="7.62" y="63.5" size="1.778" layer="95"/>
+<pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="GND@30"/>
 <wire x1="17.78" y1="88.9" x2="7.62" y2="88.9" width="0.1524" layer="91"/>
-<label x="7.62" y="88.9" size="1.778" layer="95"/>
+<pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="GND@34"/>
 <wire x1="17.78" y1="99.06" x2="7.62" y2="99.06" width="0.1524" layer="91"/>
-<label x="7.62" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="PCB1" gate="G$1" pin="GND@39"/>
-<wire x1="45.72" y1="114.3" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
-<label x="50.8" y="114.3" size="1.778" layer="95"/>
+<pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="GND@25"/>
 <wire x1="45.72" y1="78.74" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
-<label x="50.8" y="78.74" size="1.778" layer="95"/>
+<pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="GND@9"/>
 <wire x1="45.72" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
-<label x="50.8" y="38.1" size="1.778" layer="95"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND28" gate="1" pin="GND"/>
+<pinref part="U$9" gate="G$1" pin="3"/>
+<wire x1="139.7" y1="124.46" x2="152.4" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="3"/>
+<wire x1="187.96" y1="60.96" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="GND23" gate="1" pin="GND"/>
+<wire x1="182.88" y1="60.96" x2="182.88" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PCB1" gate="G$1" pin="GND@39"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="45.72" y1="114.3" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -10424,6 +10542,36 @@ More information and support community is available at http://www.element14.com/
 <attribute name="NAME" x="92.456" y="60.96" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="95.504" y="60.96" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
+<instance part="GND30" gate="1" x="83.82" y="99.06" smashed="yes">
+<attribute name="VALUE" x="81.28" y="96.52" size="1.778" layer="96"/>
+</instance>
+<instance part="GND31" gate="1" x="71.12" y="17.78" smashed="yes">
+<attribute name="VALUE" x="68.58" y="15.24" size="1.778" layer="96"/>
+</instance>
+<instance part="GND32" gate="1" x="60.96" y="17.78" smashed="yes">
+<attribute name="VALUE" x="58.42" y="15.24" size="1.778" layer="96"/>
+</instance>
+<instance part="GND33" gate="1" x="114.3" y="17.78" smashed="yes">
+<attribute name="VALUE" x="111.76" y="15.24" size="1.778" layer="96"/>
+</instance>
+<instance part="GND34" gate="1" x="25.4" y="17.78" smashed="yes">
+<attribute name="VALUE" x="22.86" y="15.24" size="1.778" layer="96"/>
+</instance>
+<instance part="GND35" gate="1" x="187.96" y="43.18" smashed="yes" rot="R90">
+<attribute name="VALUE" x="190.5" y="40.64" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND36" gate="1" x="187.96" y="58.42" smashed="yes" rot="R90">
+<attribute name="VALUE" x="190.5" y="55.88" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND37" gate="1" x="58.42" y="88.9" smashed="yes" rot="R90">
+<attribute name="VALUE" x="60.96" y="86.36" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND38" gate="1" x="193.04" y="137.16" smashed="yes">
+<attribute name="VALUE" x="190.5" y="134.62" size="1.778" layer="96"/>
+</instance>
+<instance part="GND39" gate="1" x="182.88" y="134.62" smashed="yes" rot="R90">
+<attribute name="VALUE" x="185.42" y="132.08" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10436,54 +10584,57 @@ More information and support community is available at http://www.element14.com/
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="GND"/>
-<wire x1="162.56" y1="134.62" x2="185.42" y2="134.62" width="0.1524" layer="91"/>
-<label x="180.34" y="134.62" size="1.778" layer="95"/>
+<wire x1="162.56" y1="134.62" x2="180.34" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="GND39" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="109.22" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
-<label x="81.28" y="99.06" size="1.778" layer="95"/>
+<pinref part="GND30" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
-<label x="22.86" y="17.78" size="1.778" layer="95"/>
+<pinref part="GND34" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="ADJ/GND"/>
 <wire x1="55.88" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="30.48" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
-<label x="58.42" y="17.78" size="1.778" layer="95"/>
+<pinref part="GND32" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="27.94" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
-<label x="68.58" y="17.78" size="1.778" layer="95"/>
+<pinref part="GND31" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="144.78" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
-<label x="190.5" y="137.16" size="1.778" layer="95"/>
+<pinref part="GND38" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="88.9" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
 <label x="50.8" y="88.9" size="1.778" layer="95"/>
+<pinref part="GND37" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="58.42" x2="185.42" y2="58.42" width="0.1524" layer="91"/>
 <label x="180.34" y="58.42" size="1.778" layer="95"/>
+<pinref part="GND36" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="43.18" x2="185.42" y2="43.18" width="0.1524" layer="91"/>
 <label x="180.34" y="43.18" size="1.778" layer="95"/>
+<pinref part="GND35" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="114.3" y1="25.4" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
-<label x="111.76" y="17.78" size="1.778" layer="95"/>
+<pinref part="GND33" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="5V" class="0">
