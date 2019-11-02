@@ -159,9 +159,9 @@
 <board>
 <plain>
 <wire x1="13.97" y1="8.89" x2="92.69" y2="8.89" width="0" layer="20"/>
-<wire x1="92.69" y1="8.89" x2="92.69" y2="78.41" width="0" layer="20"/>
-<wire x1="92.69" y1="78.41" x2="13.97" y2="78.41" width="0" layer="20"/>
-<wire x1="13.97" y1="78.41" x2="13.97" y2="8.89" width="0" layer="20"/>
+<wire x1="92.69" y1="8.89" x2="92.8932" y2="74.1682" width="0" layer="20"/>
+<wire x1="92.8932" y1="74.1682" x2="14.1732" y2="74.1682" width="0" layer="20"/>
+<wire x1="14.1732" y1="74.1682" x2="13.97" y2="8.89" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="Resistor_Capacitor" urn="urn:adsk.eagle:library:11396451">
@@ -1847,7 +1847,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="VALUE" x="79.425" y="47.05" size="1.27" layer="27"/>
 </element>
 <element name="U$13" library="BackplaneParts" package="T2I" value="T2I" x="77.47" y="35.56" smashed="yes" rot="R90"/>
-<element name="U$14" library="BackplaneParts" package="T2I" value="T2I" x="33.02" y="69.85" smashed="yes"/>
+<element name="U$14" library="BackplaneParts" package="T2I" value="T2I" x="44.0944" y="65.9384" smashed="yes"/>
 <element name="U$2" library="PI_Shield_Library" package="TCAN337D" value="TCAN337D" x="60.96" y="27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="60.96" y="22.94" size="0.8128" layer="25" rot="R180"/>
 </element>
@@ -1976,10 +1976,10 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$12" pad="P$3"/>
 <contactref element="PCB1" pad="P$39"/>
 <polygon width="0.1524" layer="1">
-<vertex x="11.43" y="80.01"/>
+<vertex x="11.43" y="77.7748"/>
 <vertex x="11.43" y="8.89"/>
 <vertex x="101.6" y="8.89"/>
-<vertex x="101.6" y="80.01"/>
+<vertex x="101.6" y="77.7748"/>
 </polygon>
 <polygon width="0.254" layer="16">
 <vertex x="11.43" y="81.28"/>
@@ -2383,33 +2383,35 @@ Please make sure your boards conform to these design rules.
 <signal name="DI1">
 <contactref element="U$14" pad="3"/>
 <contactref element="PCB1" pad="P$36"/>
-<wire x1="45.12" y1="72.65" x2="41.57" y2="76.2" width="0.3048" layer="1"/>
-<wire x1="22.86" y1="76.2" x2="19.05" y2="72.39" width="0.3048" layer="1"/>
-<wire x1="19.05" y1="72.39" x2="19.05" y2="66.04" width="0.3048" layer="1"/>
-<wire x1="19.05" y1="66.04" x2="24.6634" y2="60.4266" width="0.3048" layer="1"/>
-<wire x1="24.6634" y1="60.4266" x2="24.9682" y2="60.4266" width="0.3048" layer="1"/>
-<wire x1="41.57" y1="76.2" x2="22.86" y2="76.2" width="0.3048" layer="1"/>
+<wire x1="56.1944" y1="68.7384" x2="56.1944" y2="68.2594" width="0.254" layer="1"/>
+<wire x1="56.1944" y1="68.2594" x2="54.9402" y2="67.0052" width="0.254" layer="1"/>
+<wire x1="54.9402" y1="67.0052" x2="43.7388" y2="67.0052" width="0.254" layer="1"/>
+<wire x1="43.7388" y1="67.0052" x2="40.3352" y2="63.6016" width="0.254" layer="1"/>
+<wire x1="40.3352" y1="63.6016" x2="30.7694875" y2="63.6016" width="0.254" layer="1"/>
+<wire x1="30.7694875" y1="63.6016" x2="28.8644875" y2="61.6966" width="0.254" layer="1"/>
+<wire x1="28.8644875" y1="61.6966" x2="26.2382" y2="61.6966" width="0.254" layer="1"/>
+<wire x1="26.2382" y1="61.6966" x2="24.9682" y2="60.4266" width="0.254" layer="1"/>
 </signal>
 <signal name="DI2">
 <contactref element="U$14" pad="2"/>
 <contactref element="PCB1" pad="P$38"/>
-<wire x1="43.12" y1="72.65" x2="42.92" y2="72.65" width="0.3048" layer="1"/>
-<wire x1="42.92" y1="72.65" x2="40.64" y2="74.93" width="0.3048" layer="1"/>
-<wire x1="40.64" y1="74.93" x2="24.13" y2="74.93" width="0.3048" layer="1"/>
-<wire x1="20.32" y1="71.12" x2="20.32" y2="67.31" width="0.3048" layer="1"/>
-<wire x1="20.32" y1="67.31" x2="24.6634" y2="62.9666" width="0.3048" layer="1"/>
-<wire x1="24.6634" y1="62.9666" x2="24.9682" y2="62.9666" width="0.3048" layer="1"/>
-<wire x1="24.13" y1="74.93" x2="20.32" y2="71.12" width="0.3048" layer="1"/>
+<wire x1="53.47398125" y1="68.7384" x2="54.1944" y2="68.7384" width="0.254" layer="1"/>
+<wire x1="24.9682" y1="62.9666" x2="26.289" y2="64.2874" width="0.254" layer="1"/>
+<wire x1="52.57970625" y1="67.8082" x2="53.47398125" y2="68.702475" width="0.254" layer="1"/>
+<wire x1="53.47398125" y1="68.702475" x2="53.47398125" y2="68.7384" width="0.254" layer="1"/>
+<wire x1="34.7472" y1="64.2874" x2="38.268" y2="67.8082" width="0.254" layer="1"/>
+<wire x1="38.268" y1="67.8082" x2="52.57970625" y2="67.8082" width="0.254" layer="1"/>
+<wire x1="26.289" y1="64.2874" x2="34.7472" y2="64.2874" width="0.254" layer="1"/>
 </signal>
 <signal name="DI3">
 <contactref element="U$14" pad="1"/>
 <contactref element="PCB1" pad="P$40"/>
-<wire x1="41.12" y1="72.65" x2="40.11" y2="73.66" width="0.3048" layer="1"/>
-<wire x1="24.13" y1="73.66" x2="21.59" y2="71.12" width="0.3048" layer="1"/>
-<wire x1="21.59" y1="71.12" x2="21.59" y2="69.85" width="0.3048" layer="1"/>
-<wire x1="21.59" y1="69.85" x2="21.59" y2="68.8848" width="0.3048" layer="1"/>
-<wire x1="21.59" y1="68.8848" x2="24.9682" y2="65.5066" width="0.3048" layer="1"/>
-<wire x1="40.11" y1="73.66" x2="24.13" y2="73.66" width="0.3048" layer="1"/>
+<wire x1="32.6394" y1="69.6472" x2="51.2856" y2="69.6472" width="0.254" layer="1"/>
+<wire x1="29.6926" y1="66.7004" x2="29.7688" y2="66.7766" width="0.2032" layer="1"/>
+<wire x1="24.9682" y1="65.5066" x2="26.162" y2="66.7004" width="0.254" layer="1"/>
+<wire x1="26.162" y1="66.7004" x2="29.6926" y2="66.7004" width="0.254" layer="1"/>
+<wire x1="29.7688" y1="66.7766" x2="32.6394" y2="69.6472" width="0.254" layer="1"/>
+<wire x1="51.2856" y1="69.6472" x2="52.1944" y2="68.7384" width="0.254" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="D2" pad="C"/>
