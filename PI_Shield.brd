@@ -159,9 +159,9 @@
 <board>
 <plain>
 <wire x1="13.97" y1="8.89" x2="92.69" y2="8.89" width="0" layer="20"/>
-<wire x1="92.69" y1="8.89" x2="92.8932" y2="74.1682" width="0" layer="20"/>
-<wire x1="92.8932" y1="74.1682" x2="14.1732" y2="74.1682" width="0" layer="20"/>
-<wire x1="14.1732" y1="74.1682" x2="13.97" y2="8.89" width="0" layer="20"/>
+<wire x1="92.69" y1="8.89" x2="92.7408" y2="74.1682" width="0" layer="20"/>
+<wire x1="92.7408" y1="74.1682" x2="14.0208" y2="74.1682" width="0" layer="20"/>
+<wire x1="14.0208" y1="74.1682" x2="13.97" y2="8.89" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="Resistor_Capacitor" urn="urn:adsk.eagle:library:11396451">
