@@ -2022,11 +2022,12 @@ Please make sure your boards conform to these design rules.
 <contactref element="R11" pad="2"/>
 <wire x1="67.73" y1="62.23" x2="67.31" y2="62.23" width="0.254" layer="1"/>
 <wire x1="60.96" y1="60.96" x2="62.23" y2="60.96" width="0.254" layer="1"/>
-<wire x1="62.23" y1="60.96" x2="63.5254" y2="59.6646" width="0.254" layer="1"/>
+<wire x1="62.23" y1="60.96" x2="63.5" y2="59.69" width="0.254" layer="1"/>
 <wire x1="67.31" y1="60.7822" x2="67.31" y2="62.23" width="0.254" layer="1"/>
-<wire x1="67.8942" y1="60.198" x2="67.31" y2="60.7822" width="0.254" layer="1"/>
-<wire x1="67.3608" y1="59.6646" x2="67.8942" y2="60.198" width="0.254" layer="1"/>
-<wire x1="63.5254" y1="59.6646" x2="67.3608" y2="59.6646" width="0.254" layer="1"/>
+<wire x1="63.5" y1="59.69" x2="67.2846" y2="59.69" width="0.254" layer="1"/>
+<wire x1="67.2846" y1="59.69" x2="67.7164" y2="60.1218" width="0.254" layer="1"/>
+<wire x1="67.7164" y1="60.3758" x2="67.31" y2="60.7822" width="0.254" layer="1"/>
+<wire x1="67.7164" y1="60.1218" x2="67.7164" y2="60.3758" width="0.254" layer="1"/>
 </signal>
 <signal name="TXCAN">
 <contactref element="U$1" pad="TXCAN"/>
