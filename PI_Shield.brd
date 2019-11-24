@@ -1982,8 +1982,7 @@ Please make sure your boards conform to these design rules.
 </polygon>
 <polygon width="0.254" layer="16">
 <vertex x="11.43" y="81.28"/>
-<vertex x="11.43" y="7.62"/>
-<vertex x="10.16" y="6.35"/>
+<vertex x="11.43" y="6.35"/>
 <vertex x="96.52" y="6.35"/>
 <vertex x="96.52" y="81.28"/>
 </polygon>
