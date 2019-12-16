@@ -1999,7 +1999,6 @@ Please make sure your boards conform to these design rules.
 <signal name="OSC1">
 <contactref element="U$1" pad="OSC1"/>
 <contactref element="R19" pad="2"/>
-<wire x1="67.7046" y1="62.23" x2="67.8316" y2="62.103" width="0.3048" layer="1"/>
 <wire x1="60.96" y1="62.23" x2="62.9412" y2="62.23" width="0.3048" layer="1"/>
 <wire x1="62.9412" y1="62.23" x2="64.2874" y2="60.8838" width="0.3048" layer="1"/>
 <wire x1="64.2874" y1="60.8838" x2="65.7606" y2="60.8838" width="0.3048" layer="1"/>
