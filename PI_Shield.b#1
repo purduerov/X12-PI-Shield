@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.1">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -162,10 +162,6 @@
 <wire x1="91.5216" y1="8.89" x2="91.5724" y2="74.1682" width="0" layer="20"/>
 <wire x1="91.5724" y1="74.1682" x2="14.0208" y2="74.1682" width="0" layer="20"/>
 <wire x1="14.0208" y1="74.1682" x2="13.97" y2="8.89" width="0" layer="20"/>
-<text x="21.844" y="54.102" size="1.143" layer="25" rot="R90">ROV X12 PI Shield v1
-12/30/2019
-Katherine Sandys
-Jacob Bobson</text>
 </plain>
 <libraries>
 <library name="Resistor_Capacitor" urn="urn:adsk.eagle:library:11396451">
@@ -395,6 +391,9 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <packages3d>
 <package3d name="CAP_0603" urn="urn:adsk.eagle:package:10872909/3" type="model" library_version="1">
 <description>Resistor, Chip; 1.60 mm L X 0.80 mm W X 0.80 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<packageinstances>
+<packageinstance name="CAP_0603"/>
+</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -435,6 +434,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3d name="0603" urn="urn:adsk.eagle:package:37414@1/1" type="box" library_version="1">
 <description>Generic 1608 (0603) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0603"/>
+</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -483,9 +485,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packages3d>
 <package3d name="SOD-323" urn="urn:adsk.eagle:package:38441/1" type="box" library_version="1">
 <description>SOD-323 (Small Outline Diode)</description>
+<packageinstances>
+<packageinstance name="SOD-323"/>
+</packageinstances>
 </package3d>
 <package3d name="SOT23-3" urn="urn:adsk.eagle:package:38446/1" type="box" library_version="1">
 <description>SOT23-3</description>
+<packageinstances>
+<packageinstance name="SOT23-3"/>
+</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -536,6 +544,9 @@ Area: 0.06" x 0.03"
 
 Example device(s):
 LED - BLUE</description>
+<packageinstances>
+<packageinstance name="LED-0603"/>
+</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -559,6 +570,9 @@ LED - BLUE</description>
 <packages3d>
 <package3d name="3,6-PAD" urn="urn:adsk.eagle:package:14284/1" type="box" library_version="1">
 <description>MOUNTING PAD 3.6 mm, round</description>
+<packageinstances>
+<packageinstance name="3,6-PAD"/>
+</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -803,6 +817,9 @@ Pin pitch:0.1"
 Example device(s):
 CONN_03
 </description>
+<packageinstances>
+<packageinstance name="1X03"/>
+</packageinstances>
 </package3d>
 <package3d name="1X05" urn="urn:adsk.eagle:package:38104/1" type="box" library_version="1">
 <description>Plated Through Hole - 5 Pin
@@ -813,6 +830,9 @@ Pin pitch:0.1"
 Example device(s):
 CONN_05
 </description>
+<packageinstances>
+<packageinstance name="1X05"/>
+</packageinstances>
 </package3d>
 <package3d name="1X02" urn="urn:adsk.eagle:package:38039/1" type="box" library_version="1">
 <description>Plated Through Hole
@@ -823,6 +843,9 @@ Pin pitch:0.1"
 Example device(s):
 CONN_02
 </description>
+<packageinstances>
+<packageinstance name="1X02"/>
+</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -1025,6 +1048,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3d name="0603" urn="urn:adsk.eagle:package:39650/1" type="box" library_version="1">
 <description>Generic 1608 (0603) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0603"/>
+</packageinstances>
 </package3d>
 </packages3d>
 </library>
@@ -1490,6 +1516,9 @@ Please make sure your boards conform to these design rules.
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -1944,25 +1973,21 @@ Please make sure your boards conform to these design rules.
 <contactref element="U$9" pad="P$3"/>
 <contactref element="U$12" pad="P$3"/>
 <contactref element="PCB1" pad="P$39"/>
-<polygon width="0.2032" layer="1">
-<vertex x="13.97" y="73.9648"/>
-<vertex x="13.97" y="8.89"/>
-<vertex x="91.44" y="8.89"/>
-<vertex x="91.44" y="73.9648"/>
+<polygon width="0.1524" layer="1">
+<vertex x="11.43" y="77.7748"/>
+<vertex x="11.43" y="8.89"/>
+<vertex x="101.6" y="8.89"/>
+<vertex x="101.6" y="77.7748"/>
 </polygon>
 <polygon width="0.254" layer="16">
-<vertex x="13.97" y="73.66"/>
-<vertex x="13.97" y="8.89"/>
-<vertex x="91.44" y="8.89"/>
-<vertex x="91.44" y="73.66"/>
+<vertex x="11.43" y="81.28"/>
+<vertex x="11.43" y="6.35"/>
+<vertex x="96.52" y="6.35"/>
+<vertex x="96.52" y="81.28"/>
 </polygon>
 <wire x1="24.9682" y1="22.3266" x2="22.8392" y2="22.3266" width="0.3048" layer="1"/>
 <wire x1="22.8392" y1="22.3266" x2="20.3708" y2="24.795" width="0.3048" layer="1"/>
 <wire x1="20.3708" y1="24.795" x2="17.78" y2="24.795" width="0.3048" layer="1"/>
-<via x="45.72" y="24.13" extent="1-16" drill="0.35"/>
-<via x="52.07" y="24.13" extent="1-16" drill="0.35"/>
-<via x="57.15" y="25.4" extent="1-16" drill="0.35"/>
-<via x="67.31" y="24.892" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="RESET">
 <contactref element="U$1" pad="RESET"/>
@@ -2753,13 +2778,16 @@ Please make sure your boards conform to these design rules.
 <wire x1="57.32" y1="38.52" x2="57.47" y2="38.37" width="0.3048" layer="1"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
