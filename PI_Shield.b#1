@@ -2233,7 +2233,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="67.6266" y1="23.0378" x2="67.8434" y2="23.2546" width="0.3048" layer="1"/>
 <wire x1="67.8434" y1="23.2546" x2="67.8434" y2="11.9634" width="0.3048" layer="1"/>
 <wire x1="67.8434" y1="11.9634" x2="67.31" y2="11.43" width="0.3048" layer="1"/>
-<wire x1="46.99" y1="27.52" x2="52.3122" y2="27.5336" width="0" layer="19" extent="16-16"/>
+<wire x1="52.3122" y1="27.5336" x2="47.0036" y2="27.5336" width="0.3048" layer="16"/>
+<wire x1="47.0036" y1="27.5336" x2="46.99" y2="27.52" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$2" pad="S"/>
