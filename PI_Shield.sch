@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.1">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8780,6 +8780,9 @@ More information and support community is available at http://www.element14.com/
 <text x="203.2" y="149.86" size="1.778" layer="91">CAN Termination</text>
 <text x="213.36" y="88.9" size="1.778" layer="91">CAN to MiniROV Connectors</text>
 <text x="177.8" y="55.88" size="1.778" layer="91">NMOS</text>
+<text x="175.26" y="154.94" size="1.778" layer="91">Pull S pin high for silent mode
+Silent mode is unwanted
+Do not populate R3</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
