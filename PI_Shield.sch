@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9298,8 +9298,11 @@ Do not populate R3</text>
 <text x="5.08" y="40.64" size="1.778" layer="91">Data Logger Pin</text>
 <text x="5.08" y="35.56" size="1.778" layer="91">Data Logger Pin</text>
 <text x="43.18" y="33.02" size="1.778" layer="91">Data Logger Pin</text>
-<text x="71.12" y="63.5" size="1.778" layer="91" rot="R90">We will be using Pi 4, not Pi 2</text>
+<text x="71.12" y="63.5" size="1.778" layer="91" rot="R90">We will be using Pi 3, not Pi 2</text>
 <text x="134.62" y="27.94" size="1.778" layer="91">Sensors need to be assigned, chnage names later</text>
+<text x="45.72" y="121.92" size="1.778" layer="91" rot="R180">DO NOT use pin 28 or 27
+ these are form EEPROM</text>
+<text x="43.18" y="83.82" size="1.778" layer="91" rot="R180">DO NOT USE 27, 28</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
