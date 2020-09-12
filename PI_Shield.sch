@@ -8649,6 +8649,78 @@ More information and support community is available at http://www.element14.com/
 </deviceset>
 </devicesets>
 </library>
+<library name="Samtec t2i">
+<packages>
+<package name="T2I" urn="urn:adsk.eagle:footprint:23194704/1" locally_modified="yes">
+<wire x1="0" y1="0" x2="0" y2="5.588" width="0.127" layer="21"/>
+<wire x1="0" y1="5.588" x2="17.8054" y2="5.588" width="0.127" layer="21"/>
+<wire x1="17.8054" y1="5.588" x2="17.8054" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.127" layer="21"/>
+<wire x1="13.1318" y1="0" x2="17.78" y2="0" width="0.127" layer="21"/>
+<wire x1="13.1318" y1="-1.016" x2="7.62" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-1.016" x2="7.62" y2="0" width="0.127" layer="21"/>
+<wire x1="13.1318" y1="-1.016" x2="13.1318" y2="0" width="0.127" layer="21"/>
+<pad name="S1" x="0.7" y="2.8" drill="0.7"/>
+<pad name="1" x="8.1" y="2.8" drill="0.8"/>
+<pad name="2" x="10.1" y="2.8" drill="0.8"/>
+<pad name="3" x="12.1" y="2.8" drill="0.8"/>
+<pad name="4" x="14.1" y="2.8" drill="0.8"/>
+<pad name="S2" x="17.1" y="2.8" drill="0.8"/>
+<wire x1="0" y1="5.588" x2="17.78" y2="5.588" width="0.127" layer="39"/>
+<wire x1="17.78" y1="5.588" x2="17.78" y2="0" width="0.127" layer="39"/>
+<wire x1="17.78" y1="0" x2="13.081" y2="0" width="0.127" layer="39"/>
+<wire x1="13.081" y1="0" x2="13.081" y2="-1.016" width="0.127" layer="39"/>
+<wire x1="13.081" y1="-1.016" x2="7.62" y2="-1.016" width="0.127" layer="39"/>
+<wire x1="7.62" y1="-1.016" x2="7.62" y2="0" width="0.127" layer="39"/>
+<wire x1="7.62" y1="0" x2="0" y2="0" width="0.127" layer="39"/>
+<wire x1="0" y1="0" x2="0" y2="5.588" width="0.127" layer="39"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="T2I" urn="urn:adsk.eagle:package:23194708/2" type="model">
+<packageinstances>
+<packageinstance name="T2I"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="T2I">
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="7.62" y="0" length="middle" rot="R180"/>
+<pin name="2" x="7.62" y="-2.54" length="middle" rot="R180"/>
+<pin name="3" x="7.62" y="-5.08" length="middle" rot="R180"/>
+<pin name="4" x="7.62" y="-7.62" length="middle" rot="R180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="T2I">
+<gates>
+<gate name="G$1" symbol="T2I" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="T2I">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23194708/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8675,8 +8747,6 @@ More information and support community is available at http://www.element14.com/
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="60"/>
 <part name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22NF/22,000PF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:37414@1/1" value="4.7nF"/>
 <part name="U$10" library="BackplaneParts" deviceset="T2I" device=""/>
-<part name="U$13" library="BackplaneParts" deviceset="T2I" device=""/>
-<part name="U$14" library="BackplaneParts" deviceset="T2I" device=""/>
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
 <part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="68"/>
 <part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
@@ -8770,6 +8840,8 @@ More information and support community is available at http://www.element14.com/
 <part name="R19" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="0"/>
 <part name="R18" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="0"/>
 <part name="R21" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="0"/>
+<part name="U$5" library="Samtec t2i" deviceset="T2I" device="" package3d_urn="urn:adsk.eagle:package:23194708/2"/>
+<part name="U$15" library="Samtec t2i" deviceset="T2I" device="" package3d_urn="urn:adsk.eagle:package:23194708/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -8839,14 +8911,6 @@ Do not populate R3</text>
 <attribute name="NAME" x="233.68" y="144.78" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="228.6" y="144.78" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="U$13" gate="G$1" x="213.36" y="78.74" smashed="yes" rot="R270">
-<attribute name="NAME" x="220.98" y="86.36" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="215.9" y="86.36" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="U$14" gate="G$1" x="213.36" y="53.34" smashed="yes" rot="R270">
-<attribute name="NAME" x="220.98" y="60.96" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="215.9" y="60.96" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="R4" gate="G$1" x="160.02" y="58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="158.496" y="58.42" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="161.544" y="58.42" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
@@ -8914,6 +8978,14 @@ Do not populate R3</text>
 <instance part="R19" gate="G$1" x="55.88" y="35.56" smashed="yes">
 <attribute name="NAME" x="55.88" y="37.084" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="55.88" y="34.036" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="U$5" gate="G$1" x="218.44" y="76.2" smashed="yes">
+<attribute name="NAME" x="215.9" y="78.74" size="1.778" layer="95"/>
+<attribute name="VALUE" x="215.9" y="63.5" size="1.778" layer="96"/>
+</instance>
+<instance part="U$15" gate="G$1" x="218.44" y="50.8" smashed="yes">
+<attribute name="NAME" x="215.9" y="53.34" size="1.778" layer="95"/>
+<attribute name="VALUE" x="215.9" y="38.1" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8986,9 +9058,9 @@ Do not populate R3</text>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$14" gate="G$1" pin="4"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="226.06" y1="43.18" x2="233.68" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U$15" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -9179,9 +9251,9 @@ Do not populate R3</text>
 <label x="241.3" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="73.66" x2="233.68" y2="73.66" width="0.1524" layer="91"/>
 <label x="228.6" y="73.66" size="1.778" layer="95"/>
+<pinref part="U$5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="CANL" class="0">
@@ -9202,9 +9274,9 @@ Do not populate R3</text>
 <label x="241.3" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="3"/>
 <wire x1="226.06" y1="71.12" x2="233.68" y2="71.12" width="0.1524" layer="91"/>
 <label x="228.6" y="71.12" size="1.778" layer="95"/>
+<pinref part="U$5" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -9220,23 +9292,23 @@ Do not populate R3</text>
 </net>
 <net name="DI1" class="0">
 <segment>
-<pinref part="U$14" gate="G$1" pin="3"/>
 <wire x1="226.06" y1="45.72" x2="233.68" y2="45.72" width="0.1524" layer="91"/>
 <label x="231.14" y="45.72" size="1.778" layer="95"/>
+<pinref part="U$15" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="DI2" class="0">
 <segment>
-<pinref part="U$14" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="48.26" x2="233.68" y2="48.26" width="0.1524" layer="91"/>
 <label x="231.14" y="48.26" size="1.778" layer="95"/>
+<pinref part="U$15" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DI3" class="0">
 <segment>
-<pinref part="U$14" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="50.8" x2="233.68" y2="50.8" width="0.1524" layer="91"/>
 <label x="231.14" y="50.8" size="1.778" layer="95"/>
+<pinref part="U$15" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
